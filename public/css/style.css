@@ -1,0 +1,59 @@
+:root{
+  --red:#f53b57;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+  text-transform: capitalize;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  transition: all .2s ease-out;
+}
+
+*::selection{
+  background:var(--red);
+  color:white;
+}
+
+html{
+  font-size: 63%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+section{
+  min-height: 100vh;
+  padding:0 7%;
+  padding-top: 11rem;
+  padding-bottom: 9rem;
+}
+
+.btn{
+  display: inline-block;
+  margin-top: 1rem;
+  padding:.7rem 3rem;
+  border-radius: 5rem;
+  background:var(--red);
+  color:#fff;
+  font-size: 2rem;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+header{
+  position:fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: url("images/header-bg.png");
+
+}
+
+.background{
+  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/kids1.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
